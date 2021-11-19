@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="images/logo-01.png"/>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Contact Form</title>
+</head>
+<body>
+    <main>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+        <nav>
+            <div id="nav_bar">
+            <ul>
+                <li><a href= "index.html">Home</a></li>
+                <li><a href= "food.html">Food</a></li>
+                <li><a href= "art.html">Art & Culture</a></li>
+                <li><a href= "study.html">Study Spots</a></li>
+                <li><a href= "other.html">Weekend Activities</a></li>
+                <li><a href= "gallery.html">Gallery</a></li>
+                <li><a href= "contact.html" class='active-page'>Contact Me</a></li>
+            </ul>
+        </div>
+        </nav>
+
+    <header id="main">
+        <h1> Contact Me</h1>
+    </header>
+
+    <form
+    action="https://formspree.io/f/xzbynozw"
+    method="POST">
+  <fieldset>
+    <legend>Fill out the form below to contact me!</legend>
+
+    <label for="name_id">Your Name: </label>
+    <br> </br>
+    <input type="text" placeholder="Enter Your Name" id = "name_id" name="Name" required>
+    <br> </br>
+    <label for="email_id">Your Email: </label>
+    <br> </br>
+    <input type="email" placeholder="Enter Your Email" id = "email_id" name="Email" required>
+    <br> </br>
+    <label for="msg">Leave A Message: </label>
+    <br> </br>
+    <textarea placeholder="Enter your message" id = "msg" name="Mesg" required></textarea><br>
+
+    <input type="submit" value = "Contact Me">
+  </fieldset>
+ </form>
+</main>
+ <footer> 
+    <p>Elizabeth Yang &copy; 2021</p>
+</footer>
+</body>
+</html>
