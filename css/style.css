@@ -485,6 +485,21 @@ div.text2{
       display:block;
     }
   @media screen and (min-width: 750px) {
+   
+    .auto-slider{
+        margin-right:25%;
+        margin-left:25%;
+    }
+    
+    .about{
+        width: 70%;
+        height:fit-content;
+        font-size: 1.25em;
+        margin:auto;
+
+    }
+
+
     
     .container{
         display:grid;
@@ -532,7 +547,10 @@ div.text2{
     }
 
     .week-text{
-        flex-direction: row;
+        font-size: 1.25em;
+    }
+    .week-text h2{
+        font-size: 1.25em;
     }
     
     div.text{
@@ -540,11 +558,7 @@ div.text2{
         overflow-y: auto;
         height:300px;
     }
-    .auto-slider{
-        margin-right:25%;
-        margin-left:25%;
-    }
-  
+    
 
   
     .container2{
